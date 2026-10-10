@@ -1,0 +1,112 @@
+交付压缩包文件树（不包含 node_modules、凭据或临时探针）
+
+县域医学影像质控与结构化报告系统/
+├── artifacts/
+│   └── hologram/
+│       ├── audit/
+│       │   ├── native-2026-10-08T04-49-13-058Z/
+│       │   │   ├── audit.json
+│       │   │   ├── layout-1024.png
+│       │   │   ├── layout-1366.png
+│       │   │   ├── layout-1920.png
+│       │   │   ├── layout-320.png
+│       │   │   ├── layout-390.png
+│       │   │   ├── stage-0.png
+│       │   │   ├── stage-2.png
+│       │   │   ├── stage-4.png
+│       │   │   ├── stage-5-complete.png
+│       │   │   ├── stage-5-explode.png
+│       │   │   └── stage-5-slice.png
+│       │   └── software-2026-10-08T04-51-10-298Z/
+│       │       └── audit.json
+│       ├── build-results.txt
+│       ├── dependency-audit.json
+│       ├── e2e-results.json
+│       ├── gpu-allocations.json
+│       └── unit-results.txt
+├── dist/
+│   ├── assets/
+│   │   ├── HologramLab-BuzFIeGg.css
+│   │   ├── HologramLab-Div6nkFS.js
+│   │   ├── LabScene-BDH7Q7VK.js
+│   │   ├── demo-chest-BJW6QeP2.png
+│   │   ├── imageAnalysis.worker-DxFXJgQJ.js
+│   │   ├── index-DSXyTiFG.css
+│   │   └── index-m8lgqlNb.js
+│   └── index.html
+├── docs/
+│   ├── FILE_TREE.txt
+│   ├── HOLOGRAM_GUIDE.md
+│   ├── SOURCE_CONTENTS.md
+│   ├── SOURCE_MANIFEST.json
+│   └── VERIFICATION.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── playwright.config.ts
+├── scripts/
+│   └── audit-hologram.mjs
+├── src/
+│   ├── App.jsx
+│   ├── DicomViewer.jsx
+│   ├── assets/
+│   │   └── demo-chest.png
+│   ├── dicom-fixture.js
+│   ├── dicom.js
+│   ├── dicom.test.js
+│   ├── features/
+│   │   └── hologram/
+│   │       ├── HologramLab.tsx
+│   │       ├── animation/
+│   │       │   └── scanTimeline.ts
+│   │       ├── hologram.css
+│   │       ├── hooks/
+│   │       │   ├── useOrganModel.ts
+│   │       │   ├── useReducedMotion.ts
+│   │       │   ├── useScanAudio.ts
+│   │       │   └── useScanTimeline.ts
+│   │       ├── imaging/
+│   │       │   ├── decodeImage.ts
+│   │       │   ├── imageAnalysis.worker.ts
+│   │       │   ├── imageValidation.ts
+│   │       │   └── seededMapping.ts
+│   │       ├── materials/
+│   │       │   └── HologramMaterial.ts
+│   │       ├── models/
+│   │       │   ├── organRegistry.ts
+│   │       │   └── proceduralOrgans.ts
+│   │       ├── motion.config.ts
+│   │       ├── quality.config.ts
+│   │       ├── scene/
+│   │       │   ├── LabScene.tsx
+│   │       │   ├── LesionField.tsx
+│   │       │   ├── OrganAssembly.tsx
+│   │       │   ├── ParticleSystems.tsx
+│   │       │   ├── PostFX.tsx
+│   │       │   ├── ProjectionStage.tsx
+│   │       │   ├── ScannerRig.tsx
+│   │       │   └── sceneMath.ts
+│   │       ├── state/
+│   │       │   └── labMachine.ts
+│   │       ├── tests/
+│   │       │   ├── hologram-flow.spec.ts
+│   │       │   ├── hologram-interactions.spec.ts
+│   │       │   ├── imageValidation.test.ts
+│   │       │   ├── imaging.test.ts
+│   │       │   ├── labMachine.test.ts
+│   │       │   ├── organRegistry.test.ts
+│   │       │   ├── sceneMath.test.ts
+│   │       │   └── timeline.test.ts
+│   │       ├── types.ts
+│   │       └── ui/
+│   │           ├── ImageFeeder.tsx
+│   │           ├── InspectorPanel.tsx
+│   │           └── LabHUD.tsx
+│   ├── main.jsx
+│   ├── quality-view.js
+│   ├── quality-view.test.js
+│   ├── quality.js
+│   ├── quality.test.js
+│   └── style.css
+├── tsconfig.json
+└── vite.config.ts

@@ -1,0 +1,282 @@
+[
+  {
+    "path": "index.html",
+    "bytes": 285,
+    "sha256": "3645cbfe34dd86aa01535c93c9c2de39031ee7552ce4d5be2f16dd8e02bb7a79"
+  },
+  {
+    "path": "package-lock.json",
+    "bytes": 103192,
+    "sha256": "01c7e0e117db1f93b09c90fc039875bd9408b7b5257f98a6705d776b98503cca"
+  },
+  {
+    "path": "package.json",
+    "bytes": 814,
+    "sha256": "d35abacd47a5d45519399882c8ca3539f6a6be547cddc00a17eb730a897cc61c"
+  },
+  {
+    "path": "playwright.config.ts",
+    "bytes": 851,
+    "sha256": "ac53665f94e2454ab5f5332204582ee1bef3c2d7a881e0d7b922d0f631e911a0"
+  },
+  {
+    "path": "scripts/audit-hologram.mjs",
+    "bytes": 4851,
+    "sha256": "6c7763fcf58b611baeb4213de858c42a37588a98b6fef23fddcda430b1eb4978"
+  },
+  {
+    "path": "src/App.jsx",
+    "bytes": 28275,
+    "sha256": "b0634865aaddc53948700b1cdf2ff13a309be14c51c8d72d7b77caead064bffc"
+  },
+  {
+    "path": "src/DicomViewer.jsx",
+    "bytes": 4514,
+    "sha256": "00bbdd712fd15d808d653f296743f3d283bb4442a3735df5e2c4627a937b3117"
+  },
+  {
+    "path": "src/assets/demo-chest.png",
+    "bytes": 1395219,
+    "sha256": "b3e22ae28bb603291109416ee7d0fbd362ec047068a905b3278ab6c7f142b35d"
+  },
+  {
+    "path": "src/dicom-fixture.js",
+    "bytes": 1399,
+    "sha256": "dfd77883bd0698a4c9b79f68d1bcdb19f1089539e7325c11f8358ae3abe48f8f"
+  },
+  {
+    "path": "src/dicom.js",
+    "bytes": 9061,
+    "sha256": "6b1e6035e0cf658147460f56c9ceee5bb6cc4151e6fe7d453dd57d08e3d287fc"
+  },
+  {
+    "path": "src/dicom.test.js",
+    "bytes": 1445,
+    "sha256": "f99e87b5d9bfe4220126d85bfab8ae8b7ceca409fab7adced90c8a2e5c49a6ef"
+  },
+  {
+    "path": "src/features/hologram/HologramLab.tsx",
+    "bytes": 13431,
+    "sha256": "8be06871db960540d8f198bafb87cd5c47410475622f4698c556321d8917e4a9"
+  },
+  {
+    "path": "src/features/hologram/animation/scanTimeline.ts",
+    "bytes": 1108,
+    "sha256": "2dd90ab3439138cea0d753889dd02e5c7a7b606c6cc4dcb66ff09b0dd6579a9c"
+  },
+  {
+    "path": "src/features/hologram/hologram.css",
+    "bytes": 21409,
+    "sha256": "59d19a3818033f2b1ee74c5ff515d7ab94078d18b83e8777533b5b45ca59ddc5"
+  },
+  {
+    "path": "src/features/hologram/hooks/useOrganModel.ts",
+    "bytes": 826,
+    "sha256": "e125a23a0ffc41fb900f9f1c12abaeee26335550db31f6b0e7e94f47147df91b"
+  },
+  {
+    "path": "src/features/hologram/hooks/useReducedMotion.ts",
+    "bytes": 476,
+    "sha256": "c4fd885da137523f69b63e903913bf9fc0fec32598ab1e0174ae6f4f7d49c3e3"
+  },
+  {
+    "path": "src/features/hologram/hooks/useScanAudio.ts",
+    "bytes": 3548,
+    "sha256": "ef38ee657af20290950ea30c63f9850dfb023e746b4dd20194b96c8588dd491c"
+  },
+  {
+    "path": "src/features/hologram/hooks/useScanTimeline.ts",
+    "bytes": 2448,
+    "sha256": "594436a689b2be52eda25f2c92b7e2df54b07616a3f69e21f74b3f97edcb9da9"
+  },
+  {
+    "path": "src/features/hologram/imaging/decodeImage.ts",
+    "bytes": 4433,
+    "sha256": "a4b52e17aaeb897d476d7b2acdecc863e2b9634bcb9c3f440524b14d4fd776da"
+  },
+  {
+    "path": "src/features/hologram/imaging/imageAnalysis.worker.ts",
+    "bytes": 602,
+    "sha256": "ebe9cb3f703c27b34284310c6defd863cb22eae4cd3e21710dfbf6ad28077761"
+  },
+  {
+    "path": "src/features/hologram/imaging/imageValidation.ts",
+    "bytes": 1853,
+    "sha256": "5c76f2f130914d076758ae3b0bcb84660c6049e6f98b78d55db1187b029e3815"
+  },
+  {
+    "path": "src/features/hologram/imaging/seededMapping.ts",
+    "bytes": 4460,
+    "sha256": "6e2504efc48cfdf1a1d0be0a1abd94a34fb3ae4dfadf8d8849822648274a4358"
+  },
+  {
+    "path": "src/features/hologram/materials/HologramMaterial.ts",
+    "bytes": 2825,
+    "sha256": "96fa24dce92d994cfc83d26a6d845d1a6fd51e3cc3734f3f2fb0da0b6b314b90"
+  },
+  {
+    "path": "src/features/hologram/models/organRegistry.ts",
+    "bytes": 3410,
+    "sha256": "60e7d8e4852185cdcdb51bfd48984989a0039b49930460bf61c2a057964cddb8"
+  },
+  {
+    "path": "src/features/hologram/models/proceduralOrgans.ts",
+    "bytes": 3909,
+    "sha256": "651b987b36d0919145a2e534e43de5844f2c357ef1c9459929a4ae87d7efca61"
+  },
+  {
+    "path": "src/features/hologram/motion.config.ts",
+    "bytes": 1091,
+    "sha256": "4d52214634f3f249a995e27ec1c1eb93390daf74369c7c87b012fe9c532a40b9"
+  },
+  {
+    "path": "src/features/hologram/quality.config.ts",
+    "bytes": 622,
+    "sha256": "9354265b2a6e44aed62fc2276b699c29a1e0ba90279a88f5f938c24ca3b697a5"
+  },
+  {
+    "path": "src/features/hologram/scene/LabScene.tsx",
+    "bytes": 4802,
+    "sha256": "63f0ed8aad08dbb8446a8149b2a8e36c9f99fa1e407863d603ffe60f41849e43"
+  },
+  {
+    "path": "src/features/hologram/scene/LesionField.tsx",
+    "bytes": 5298,
+    "sha256": "39c1174aac617ec4a45a3a779a259b8d1b1e439f1d722b43c98c9bfa2fa4218f"
+  },
+  {
+    "path": "src/features/hologram/scene/OrganAssembly.tsx",
+    "bytes": 7971,
+    "sha256": "5733ab37e334acecb88e3bdfaa8e5ea1ddb03ec68a076d005af93f35e58391ad"
+  },
+  {
+    "path": "src/features/hologram/scene/ParticleSystems.tsx",
+    "bytes": 4654,
+    "sha256": "8348a257172b615cf4c429362d515566f281acac85544fe61d09c15dd110cf10"
+  },
+  {
+    "path": "src/features/hologram/scene/PostFX.tsx",
+    "bytes": 879,
+    "sha256": "185770cbe1de100deaa5983c7225a2a7e43f345eb8c7c70188ba537da1a48ff6"
+  },
+  {
+    "path": "src/features/hologram/scene/ProjectionStage.tsx",
+    "bytes": 5993,
+    "sha256": "d18ecda058296e0ec039cfc23f8c64d8f5a3cf01276f32711b7d0539f0b91818"
+  },
+  {
+    "path": "src/features/hologram/scene/ScannerRig.tsx",
+    "bytes": 7270,
+    "sha256": "842a8e4869a2977a79f76fe375111b15d6673491d1f7502337dce2b0f3202ce2"
+  },
+  {
+    "path": "src/features/hologram/scene/sceneMath.ts",
+    "bytes": 1170,
+    "sha256": "3f543c53811b98b499fe3da7c533a2f8d6302f9641eff1f189b65a34ebf906b8"
+  },
+  {
+    "path": "src/features/hologram/state/labMachine.ts",
+    "bytes": 3023,
+    "sha256": "230b9c4e7700a92c00eb1561f5394eaa116b7bda576b932cb00a148e55a2277e"
+  },
+  {
+    "path": "src/features/hologram/tests/hologram-flow.spec.ts",
+    "bytes": 2299,
+    "sha256": "6fad425a685f9a8bc6b3f609ff0e53c3128c91400e9a86b23f2d5bc5f403e8d7"
+  },
+  {
+    "path": "src/features/hologram/tests/hologram-interactions.spec.ts",
+    "bytes": 13697,
+    "sha256": "49b3eed4904741d1490c15d03a46258666f9089915ec57720315f16217741548"
+  },
+  {
+    "path": "src/features/hologram/tests/imageValidation.test.ts",
+    "bytes": 889,
+    "sha256": "d3585e94d601cc2c450195e2aa40f20e46192ead48d17545bd8c894989de23ad"
+  },
+  {
+    "path": "src/features/hologram/tests/imaging.test.ts",
+    "bytes": 1036,
+    "sha256": "7ff16f1c6b2e61c61c08f937aba13877355c4f54711611c744e989605071873d"
+  },
+  {
+    "path": "src/features/hologram/tests/labMachine.test.ts",
+    "bytes": 4104,
+    "sha256": "c2e0e50d5198dc36d79ba778271bff57acdb12b5ec844711657b2740c86c66e3"
+  },
+  {
+    "path": "src/features/hologram/tests/organRegistry.test.ts",
+    "bytes": 1698,
+    "sha256": "07e387db1cea7ab24004404aeace4f72a2016b96c0eebcc2dfc6fad6a0fd1a85"
+  },
+  {
+    "path": "src/features/hologram/tests/sceneMath.test.ts",
+    "bytes": 2787,
+    "sha256": "dd1a86db67fb3362c052d1808beac4e6b5f0e9479bd25c3cb7f67447f8e03cbb"
+  },
+  {
+    "path": "src/features/hologram/tests/timeline.test.ts",
+    "bytes": 869,
+    "sha256": "7cab21e3d0cf70166dbf4206c09505059384a848c3ae993acb502d40a4af244d"
+  },
+  {
+    "path": "src/features/hologram/types.ts",
+    "bytes": 2028,
+    "sha256": "c0ab438974215a8bf5bb8ac17ba60f330be7eda879da31bc0e525b0596e1f69b"
+  },
+  {
+    "path": "src/features/hologram/ui/ImageFeeder.tsx",
+    "bytes": 4709,
+    "sha256": "5da8483a56e0e600cf50549eaf36e4036d5aab2391eb8d1eb982755b9bd1b8dc"
+  },
+  {
+    "path": "src/features/hologram/ui/InspectorPanel.tsx",
+    "bytes": 7597,
+    "sha256": "cdef83a2b84bc23a55df81bc89a73160e462f2fa9d85f30b7db1e94c9ab4d05f"
+  },
+  {
+    "path": "src/features/hologram/ui/LabHUD.tsx",
+    "bytes": 3473,
+    "sha256": "2dd8e5ad31edcc4ef547ed34102182693971964b9611d1ceac4a9ee1a6b58526"
+  },
+  {
+    "path": "src/main.jsx",
+    "bytes": 183,
+    "sha256": "209d11cb835d47db03844ca394b4ed1c7a927e1994118c24dacfe56241024739"
+  },
+  {
+    "path": "src/quality-view.js",
+    "bytes": 1149,
+    "sha256": "6220d7f2d51b31092b557ba0f076adcf434bfebfc2478054ef539b41e01011d9"
+  },
+  {
+    "path": "src/quality-view.test.js",
+    "bytes": 2481,
+    "sha256": "9ec4d414aeba87a95da6ef57581f4a0b5621d0d45f338c6c50493118b3e46766"
+  },
+  {
+    "path": "src/quality.js",
+    "bytes": 7583,
+    "sha256": "ccdb939a07a16b2cbf5ad49a1836269142e1e29df7f76fe846d38160457ee00c"
+  },
+  {
+    "path": "src/quality.test.js",
+    "bytes": 6516,
+    "sha256": "825171797c9c2e8ededd71c45bdf1e363af3c29fba5aad0d7176034bbdb970a2"
+  },
+  {
+    "path": "src/style.css",
+    "bytes": 27698,
+    "sha256": "09995b3b32013cb7772ec9fd8d4ac55c9f5517b89e614c565408a73d1cc369cf"
+  },
+  {
+    "path": "tsconfig.json",
+    "bytes": 482,
+    "sha256": "fcae787a36639706667f59ac9a72a93fad826be924c7befc172184bd5e943f95"
+  },
+  {
+    "path": "vite.config.ts",
+    "bytes": 220,
+    "sha256": "77f419da9d42aabdaf1d3e96ad55ad5e3512ff9539840adf71a709ca464e30a3"
+  }
+]
